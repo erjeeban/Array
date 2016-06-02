@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.leapfrog.Array;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author serjhk
+ */
+public class program {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        System.out.println("Enter any Alphabet");
+        Scanner sc = new Scanner(System.in);
+        char ch = sc.next().charAt(0);
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            System.out.println("It is Vowel");
+
+        } else {
+            System.out.println("Is is consonant");
+        }
+
+    }
+
+}
